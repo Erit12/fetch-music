@@ -31,7 +31,7 @@ function App() {
         <SearchBar setSearchTerm={setSearchTerm} />
         <Routes>
           <Route
-            path="/fetch-music"
+            path="/*"
             element={
               <div className="sections">
                 <SearchResults searchTerm={searchTerm}  />
