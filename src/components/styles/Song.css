@@ -1,0 +1,10 @@
+.song {
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.song button {
+  margin-top: 5px;
+  padding: 5px 10px;
+}

@@ -1,0 +1,25 @@
+.search-results {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f8ff;
+  border-radius: 10px;
+}
+
+.search-results .song {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.search-results button {
+  margin-top: 5px;
+  padding: 5px 10px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-results button:hover {
+  background-color: #0b7dda;
+}
