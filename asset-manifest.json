@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fetch-music/static/css/main.f6cd1c4f.css",
+    "main.js": "/fetch-music/static/js/main.0a1b8196.js",
+    "index.html": "/fetch-music/index.html",
+    "main.f6cd1c4f.css.map": "/fetch-music/static/css/main.f6cd1c4f.css.map",
+    "main.0a1b8196.js.map": "/fetch-music/static/js/main.0a1b8196.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6cd1c4f.css",
+    "static/js/main.0a1b8196.js"
+  ]
+}
