@@ -42,8 +42,8 @@ function SearchResults({ searchTerm}) {
     ? `https://www.theaudiodb.com/api/v1/json/2/searchalbum.php?s=${searchTerm}`
 
     : null;
-
-  //console.log(url);
+  console.log("Entre al fetch - esta es la url");
+  console.log(url);
 
   const { data, loading, error, refetch } = useFetch(url);
 
