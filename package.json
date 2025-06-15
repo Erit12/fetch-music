@@ -1,9 +1,9 @@
 {
   "name": "music-player",
+  "homepage": "https://erit12.github.io/fetch-music/",
   "version": "0.1.0",
   "private": true,
   "proxy": "https://www.theaudiodb.com",
-  "homepage": "https://erit12.github.io/fetch-music/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",

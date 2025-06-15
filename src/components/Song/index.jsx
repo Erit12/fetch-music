@@ -1,5 +1,3 @@
-
-import React from "react";
 import "../styles/Song.css";
 
 function Song({ song }) {
@@ -10,5 +8,4 @@ function Song({ song }) {
   );
 }
 
-//{onAdd && <button onClick={() => onAdd(song)}>Agregar a mi biblioteca</button>}
 export default Song;

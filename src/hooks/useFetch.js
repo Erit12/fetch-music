@@ -1,45 +1,4 @@
 import axios from "axios";
-/*import { useEffect, useState } from "react";
-
-
-const useFetch = ( {artist} ) =>{
-  const [albumState, setAlbumState] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  useEffect( () => {
-
-    const fecthAlbums = async ()=> {
-      try {
-        const response = await axios.get(`https://www.theaudiodb.com/api/v1/json/2/discography.php?s=${artist}`);
-
-
-        setAlbumState(response.data.album);
-
-        if ( response.data.album === null ) { setError("No hay albums para mostrar"); }
-        //console.log(response);
-
-      } catch (error) {
-        console.log("Entre al error");
-        setAlbumState([]);
-        setError("Failed to fecth albums");
-      }
-    setIsLoading(false);
-    }
-    fecthAlbums();
-  }, [artist])
-
-  return { albumState, isLoading, error};
-
-}
-
-export default useFetch;
-
-*/
-//----------------------------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------
 
 import { useState, useEffect } from "react";
 
