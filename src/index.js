@@ -8,6 +8,7 @@ root.render(
   
   <BrowserRouter basename='/fetch-music/'>
     <App />
+    <p>Actualizado</p>
   </BrowserRouter>
 );
 
