@@ -34,6 +34,7 @@ function App() {
             path="/"
             element={
               <div className="sections">
+                    <p>Actualizado</p>
                 <SearchResults searchTerm={searchTerm}  />
                 <Library songs={library} />
               </div>
