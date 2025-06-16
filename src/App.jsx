@@ -27,6 +27,7 @@ function App() {
   return (
 
       <div className="App">
+        <p>Actualizado</p>
         <Header />
         <SearchBar setSearchTerm={setSearchTerm} />
         <Routes>
@@ -34,7 +35,7 @@ function App() {
             path="/"
             element={
               <div className="sections">
-                    <p>Actualizado</p>
+
                 <SearchResults searchTerm={searchTerm}  />
                 <Library songs={library} />
               </div>
